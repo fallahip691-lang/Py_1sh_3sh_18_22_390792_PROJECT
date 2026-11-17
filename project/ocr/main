@@ -1,0 +1,5 @@
+from find import *
+
+search = input("Search: ")
+
+find(search, "text.txt")
