@@ -5,7 +5,7 @@
 users = []
 
 def sign_in(name,kode_meli):
-    name = input("Enter your name: ")
+    
     
 
     user = {
