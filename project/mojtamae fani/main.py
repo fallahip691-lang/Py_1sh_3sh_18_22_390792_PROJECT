@@ -153,13 +153,12 @@ def mojtama():
                 if user in users:
                     if password == users[user]["password"]:
                         print("welcome", user)
-                        while True:
-                            menu=input("1show 2.exit")
-                            match menu:
-                                case "1":
-                                    print(classes)
-                                case "2":
-                                    break
+                         menu=input("1.show 2.exit")
+                        match menu:
+                            case "1":
+                                print(classes)
+                            case "2":
+                                break
                         break
                     else:
                         print("password incorrect")
